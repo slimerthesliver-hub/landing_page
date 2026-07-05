@@ -155,8 +155,6 @@ nav a:hover {
 }
 
 
-
-
 #projetos{
     padding: 60px 20px;
     text-align: center;
@@ -208,3 +206,34 @@ nav a:hover {
     text-shadow: 0 0 10px cyan;
 }
 
+.hobbies {
+    width: 300px;
+    margin: 50px auto; /* Centraliza horizontalmente */
+    padding: 20px;
+    text-align: center;
+    background-color: #0b1220;
+    border: 2px solid #333;
+    border-radius: 10px;
+}
+
+.hobbies h2 {
+    margin-bottom: 15px;
+}
+
+.hobbies ul {
+    list-style: none;
+    padding: 0;
+}
+
+.hobbies li {
+    margin: 10px 0;
+    font-size: 18px;
+}
+.hobbies li:hover {
+    color: cyan;
+    text-shadow: 0 0 10px cyan;    
+}
+.hobbies h2:hover {
+    color: cyan;
+    text-shadow: 0 0 10px cyan;    
+}
