@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+img{
+    max-width:100%;
+    height:auto;
+}
 
 img.eu {
     width: 60px;
@@ -70,19 +74,19 @@ nav a:hover {
     text-shadow: 0 0 10px cyan;
 }
 
-.aba {
-    min-height: 100vh;
-    padding: 80px;
+.aba{
+    min-height:100vh;
+    padding:60px 8%;
 }
 
 .aba h2 {
-    font-size: 40px;
+    font-size:clamp(28px,4vw,40px);
     margin-bottom: 20px;
     color: cyan;
 }
 
 .aba p {
-    font-size: 20px;
+    font-size:clamp(16px,2vw,20px);
     line-height: 1.6;
 }
 
@@ -236,4 +240,87 @@ nav a:hover {
 .hobbies h2:hover {
     color: cyan;
     text-shadow: 0 0 10px cyan;    
+}
+/*==========================
+RESPONSIVO
+==========================*/
+
+@media screen and (max-width:900px){
+
+    header{
+        padding:20px;
+    }
+
+    nav{
+        flex-direction:column;
+        gap:20px;
+    }
+
+    nav h1{
+        text-align:center;
+        font-size:30px;
+    }
+
+    nav ul{
+        flex-direction:column;
+        align-items:center;
+        gap:15px;
+    }
+
+    .eu{
+        width:120px;
+        height:120px;
+    }
+
+    .eu:hover{
+        transform:scale(1.3);
+    }
+
+    .aba{
+        padding:40px 25px;
+        text-align:center;
+    }
+
+    .aba p{
+        text-align:justify;
+    }
+
+    .Habilidades nav{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        gap:15px;
+    }
+
+    .logo:hover{
+        transform:scale(1.4);
+    }
+
+    .barra{
+        width:100%;
+    }
+
+    .projetos{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .card{
+        width:95%;
+        max-width:400px;
+    }
+
+    .hobbies{
+        width:90%;
+    }
+
+    .avatar{
+        font-size:35px;
+    }
+
+    .rodapé{
+        font-size:15px;
+        padding:25px;
+    }
+
 }
