@@ -1,136 +1,313 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LandingPage</title>
-    <link rel="stylesheet" href="index.css">
-    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/9364/9364669.png" type="image/png">
+    <title>MAPA - Portfólio & Calculadora</title>
+    <link rel="stylesheet" href="mapa.css">
 </head>
+
 <body>
 
     <header>
         <nav>
-            <h1>Leonardo Pereira Rodrigues</h1>
-
+            <h1>Leonardo Pereira</h1>
             <ul>
                 <li><a href="#home">Principal</a></li>
                 <li><a href="#sobre">Sobre</a></li>
                 <li><a href="#Habilidades">Habilidades</a></li>
                 <li><a href="#projetos">Projetos</a></li>
                 <li><a href="#contato">Contato</a></li>
+                <img src="eu.jpeg" class="eu" alt="Foto de Perfil">
             </ul>
-
-            <img src="eu.jpeg" class="eu" alt="Foto de Leonardo">
         </nav>
     </header>
-    
+
     <main id="home" class="aba">
-        <br>
-        <br>
+        <br><br>
         <h2>Bem-vindo a minha Landing Page</h2>
         <p>Sou um desenvolvedor apaixonado por tecnologia, programação e criação de soluções digitais.</p>
     </main>
 
     <section id="sobre" class="aba">
-        <br>
-        <br>
+        <br><br>
         <h2>Sobre mim</h2>
         <p>
-            Meu nome é Leonardo Pereira Rodrigues, tenho 42 anos e sou natural de Florianópolis, onde vivo até hoje. Trabalho como carteiro e, atualmente, curso Análise e Desenvolvimento de Sistemas na UniCesumar. Iniciei essa graduação com o objetivo de conquistar um diploma de ensino superior, e não necessariamente com a pretensão de atuar na área, até por notar como o mercado de tecnologia vem evoluindo rápido e se transformando com a popularização das IAs. Mesmo assim, tem sido uma experiência muito divertida e interessante aprender sobre desenvolvimento de software e explorar esse universo tecnológico tão vasto..
+            Meu nome é Leonardo Pereira Rodrigues, tenho 42 anos e sou natural de Florianópolis, onde vivo até hoje.
+            Trabalho como carteiro e, atualmente, curso Análise e Desenvolvimento de Sistemas na UniCesumar. Iniciei
+            essa graduação com o objetivo de conquistar um diploma de ensino superior, e não necessariamente com a
+            pretensão de atuar na área, até por notar como o mercado de tecnologia vem evoluindo rápido e se
+            transformando com a popularização das IAs. Mesmo assim, tem sido uma experiência muito divertida e
+            interessante aprender sobre desenvolvimento de software e explorar esse universo tecnológico tão vasto..
             Atualmente estou desenvolvendo o meu conhecimento em: C, python, HTML5 e CSS.
+        </p>
+        <p>
+            Atualmente estudo HTML, CSS, JavaScript, C e Python.
         </p>
     </section>
 
     <section id="Habilidades" class="aba">
-        <br>
-        <br>
+        <br><br>
         <h2>Habilidades do Desenvolvedor</h2>
 
         <div class="Habilidades">
             <span>HTML</span>
             <nav>
-                <img src="html-full.png"  class="logo">
-            <div class="barra"><div class="progresso html"></div></div>
+                <img src="html-full.png" class="logo" alt="HTML5">
+                <div class="barra">
+                    <div class="progresso html"></div>
+                </div>
             </nav>
         </div>
 
         <div class="Habilidades">
             <span>CSS</span>
             <nav>
-                <img src="css-full.png"  class="logo">
-            <div class="barra"><div class="progresso css"></div></div>
+                <img src="css-full.png" class="logo" alt="CSS3">
+                <div class="barra">
+                    <div class="progresso css"></div>
+                </div>
             </nav>
         </div>
 
         <div class="Habilidades">
             <span>C</span>
             <nav>
-                <img src="c-full.png"  class="logo" >
-                <div class="barra"><div class="progresso C"></div></div>
-            </nav>    
+                <img src="c-full.png" class="logo" alt="C">
+                <div class="barra">
+                    <div class="progresso C"></div>
+                </div>
+            </nav>
         </div>
 
         <div class="Habilidades">
             <span>Python</span>
-        <nav>
-            <img src="python-full.png"  class="logo">
-            <div class="barra"><div class="progresso python"></div></div>
-        </nav>
+            <nav>
+                <img src="python-full.png" class="logo" alt="Python">
+                <div class="barra">
+                    <div class="progresso python"></div>
+                </div>
+            </nav>
         </div>
     </section>
+
     <section id="projetos">
-    <h2>Meus Projetos</h2>
+        <h2>Meus Projetos</h2>
 
-    <div class="projetos">
+        <div class="projetos">
 
-        <div class="card">
-            <h3>Sistema de Gestão Escolar</h3>
-            <p>
-                Plataforma web para gerenciamento de alunos, professores,
-                turmas e notas, desenvolvida com HTML, CSS, JavaScript e PHP.
-            </p>
-            <a href="https://img.freepik.com/vetores-premium/uma-ilustracao-para-a-pagina-404-erro-com-um-computador-desktop-e-sinal-de-proibido-pagina-perdida-e-mensagem-nao-encontrada_29028-239.jpg" target="_blank">Ver Projeto</a>
-        </div>
+            <!-- PROJETO 1: CALCULADORA DE JUROS COMPOSTOS & TAXA SELIC -->
+            <div class="card card-calc">
+                <h3>💰 Calculadora de Juros & Selic</h3>
 
-        <div class="card">
-            <h3>Loja Virtual TechStore</h3>
-            <p>
-                E-commerce responsivo com catálogo de produtos, carrinho
-                de compras e integração com sistema de pagamento.
-            </p>
-            <a href="https://img.freepik.com/vetores-premium/uma-ilustracao-para-a-pagina-404-erro-com-um-computador-desktop-e-sinal-de-proibido-pagina-perdida-e-mensagem-nao-encontrada_29028-239.jpg" target="_blank">Ver Projeto</a>
-        </div>
+                <div class="selic-box">
+                    <span class="selic-title">🏦 Selic Vigente:</span>
+                    <strong id="selic-valor">Consultando BCB...</strong>
+                    <button type="button" id="btn-usar-selic" class="btn-selic-apply"
+                        title="Aplicar taxa Selic no cálculo">Usar Selic</button>
+                </div>
 
-        <div class="card">
-            <h3>Task Manager</h3>
-            <p>
-                Aplicação para organização de tarefas com cadastro,
-                edição, filtros e armazenamento em banco de dados.
-            </p>
-            <a href="https://img.freepik.com/vetores-premium/uma-ilustracao-para-a-pagina-404-erro-com-um-computador-desktop-e-sinal-de-proibido-pagina-perdida-e-mensagem-nao-encontrada_29028-239.jpg" target="_blank">Ver Projeto</a>
-        </div>
+                <form id="form-calculadora" class="calc-form" onsubmit="return false;">
+                    <div class="input-field">
+                        <label for="val-inicial">Valor Inicial (R$):</label>
+                        <input type="number" id="val-inicial" value="1000" min="0" step="50" required>
+                    </div>
+
+                    <div class="input-field">
+                        <label for="val-aporte">Aporte Mensal (R$):</label>
+                        <input type="number" id="val-aporte" value="200" min="0" step="25" required>
+                    </div>
+
+                    <div class="input-field">
+                        <label for="val-taxa">Taxa de Juros (% a.a.):</label>
+                        <input type="number" id="val-taxa" value="0" min="0" step="0.01" required>
+                    </div>
+
+                    <div class="input-field">
+                        <label for="val-tempo">Período (Meses):</label>
+                        <input type="number" id="val-tempo" value="24" min="1" max="480" required>
+                    </div>
+                </form>
+
+                <!-- RELATÓRIO DO CÁLCULO E IMPOSTO -->
+                <div id="resultado-calc" class="resultado-calc">
+                    <div class="res-item">
+                        <span>💵 Total Aportado:</span>
+                        <strong id="res-investido">R$ 0,00</strong>
+                    </div>
+                    <div class="res-item">
+                        <span>💸 Rendimento Bruto:</span>
+                        <strong id="res-juros-bruto" class="destaque-verde">R$ 0,00</strong>
+                    </div>
+                    <div class="res-item">
+                        <span>🏆 Montante Bruto:</span>
+                        <strong id="res-montante-bruto">R$ 0,00</strong>
+                    </div>
+
+                    <div class="divisor-res"></div>
+
+                    <div class="res-imposto-box">
+                        <div class="res-item imposto-destaque">
+                            <span>🧾 Alíquota IR (Regressiva):</span>
+                            <strong id="res-aliquota-ir">17,5%</strong>
+                        </div>
+                        <div class="res-item imposto-destaque">
+                            <span>🏛️ Imposto a Pagar (IR):</span>
+                            <strong id="res-imposto-devido" class="destaque-vermelho">R$ 0,00</strong>
+                        </div>
+                        <div class="res-item">
+                            <span>✨ Rendimento Líquido:</span>
+                            <strong id="res-juros-liquido" class="destaque-ciano">R$ 0,00</strong>
+                        </div>
+                        <div class="res-item total-liquido">
+                            <span>💰 Montante Líquido:</span>
+                            <strong id="res-montante-liquido">R$ 0,00</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PROJETO 2 -->
+            <div class="card">
+                <h3>Loja Virtual TechStore</h3>
+                <p>
+                    E-commerce responsivo com catálogo de produtos, carrinho
+                    de compras e integração com sistema de pagamento.
+                </p>
+                <a href="https://img.freepik.com/vetores-premium/uma-ilustracao-para-a-pagina-404-erro-com-um-computador-desktop-e-sinal-de-proibido-pagina-perdida-e-mensagem-nao-encontrada_29028-239.jpg"
+                    target="_blank">Ver Projeto</a>
+            </div>
+
+            <!-- PROJETO 3 -->
+            <div class="card">
+                <h3>Task Manager</h3>
+                <p>
+                    Aplicação para organização de tarefas com cadastro,
+                    edição, filtros e armazenamento em banco de dados.
+                </p>
+                <a href="https://img.freepik.com/vetores-premium/uma-ilustracao-para-a-pagina-404-erro-com-um-computador-desktop-e-sinal-de-proibido-pagina-perdida-e-mensagem-nao-encontrada_29028-239.jpg"
+                    target="_blank">Ver Projeto</a>
+            </div>
 
         </div>
     </section>
-    <aside class="hobbies">
-        <h2>Meus Hobbies:</h2>
-
-        <ul>
-            <li> Pedalar</li>
-            <li> Andar de moto</li>
-            <li> Jogar videogame</li>
-        </ul>
-    </aside>
 
     <div class="avatar">
         👾
     </div>
+
     <footer class="rodapé" id="contato">
-        <a>contato: slimerthesliver@gmail.com</a>
+        <a href="mailto:slimerthesliver@gmail.com">Contato: slimerthesliver@gmail.com</a>
         <br><a>WhatsApp: (48) 98494-1384</a>
-        <br><a>© 2026 Leonardo pereira - Todos os direitos reservados</a>
+        <br><a>© 2026 Leonardo Pereira - Todos os direitos reservados</a>
     </footer>
 
+    <!-- LÓGICA DA CALCULADORA DE JUROS, SELIC E IMPOSTO -->
+    <script>
+        let taxaSelicAtual = 14.00;
+
+        // Formatação Monetária BRL
+        const formatarBRL = (valor) => {
+            return valor.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
+        };
+
+        // Obter Taxa Selic da API do Banco Central (Série 432 - Meta Selic Copom)
+        async function carregarTaxaSelic() {
+            const selicLabel = document.getElementById('selic-valor');
+            try {
+                const response = await fetch('https://api.bcb.gov.br/dados/serie/bcdata.sgs.432/dados/ultimos/1?formato=json');
+                if (!response.ok) throw new Error('Falha na resposta da API');
+                const data = await response.json();
+                if (data && data.length > 0) {
+                    taxaSelicAtual = parseFloat(data[0].valor);
+                    selicLabel.innerHTML = `${taxaSelicAtual.toFixed(2)}% a.a. <small>(${data[0].data})</small>`;
+                    return;
+                }
+            } catch (error) {
+                console.warn('Usando taxa Selic de contingência:', error);
+            }
+            selicLabel.innerText = `${taxaSelicAtual.toFixed(2)}% a.a. (Padrão)`;
+        }
+
+        // Tabela Regressiva de IR de Renda Fixa (Brasil)
+        function calcularIR(lucroBruto, meses) {
+            let aliquota = 15.0;
+            if (meses <= 6) {
+                aliquota = 22.5;
+            } else if (meses <= 12) {
+                aliquota = 20.0;
+            } else if (meses <= 24) {
+                aliquota = 17.5;
+            } else {
+                aliquota = 15.0;
+            }
+
+            if (lucroBruto <= 0) {
+                return { aliquota, imposto: 0, lucroLiquido: 0 };
+            }
+
+            const imposto = lucroBruto * (aliquota / 100);
+            const lucroLiquido = lucroBruto - imposto;
+            return { aliquota, imposto, lucroLiquido };
+        }
+
+        // Executa o cálculo dos juros compostos
+        function calcular() {
+            const inicial = parseFloat(document.getElementById('val-inicial').value) || 0;
+            const aporte = parseFloat(document.getElementById('val-aporte').value) || 0;
+            const taxaAnual = parseFloat(document.getElementById('val-taxa').value) || 0;
+            const meses = parseInt(document.getElementById('val-tempo').value, 10) || 1;
+
+            // Conversão de taxa anual para mensal equivalente: (1 + i_ano)^(1/12) - 1
+            const taxaMensal = Math.pow(1 + (taxaAnual / 100), 1 / 12) - 1;
+
+            let saldo = inicial;
+            let totalInvestido = inicial;
+
+            for (let m = 1; m <= meses; m++) {
+                saldo += saldo * taxaMensal;
+                if (aporte > 0) {
+                    saldo += aporte;
+                    totalInvestido += aporte;
+                }
+            }
+
+            const jurosBruto = Math.max(0, saldo - totalInvestido);
+            const montanteBruto = saldo;
+
+            // Cálculo do Imposto
+            const { aliquota, imposto, lucroLiquido } = calcularIR(jurosBruto, meses);
+            const montanteLiquido = totalInvestido + lucroLiquido;
+
+            // Atualiza os dados no DOM
+            document.getElementById('res-investido').innerText = formatarBRL(totalInvestido);
+            document.getElementById('res-juros-bruto').innerText = formatarBRL(jurosBruto);
+            document.getElementById('res-montante-bruto').innerText = formatarBRL(montanteBruto);
+
+            document.getElementById('res-aliquota-ir').innerText = `${aliquota.toFixed(1)}%`;
+            document.getElementById('res-imposto-devido').innerText = `- ${formatarBRL(imposto)}`;
+            document.getElementById('res-juros-liquido').innerText = formatarBRL(lucroLiquido);
+            document.getElementById('res-montante-liquido').innerText = formatarBRL(montanteLiquido);
+        }
+
+        // Eventos
+        document.getElementById('btn-usar-selic').addEventListener('click', () => {
+            document.getElementById('val-taxa').value = taxaSelicAtual.toFixed(2);
+            calcular();
+        });
+
+        // Auto recalcular ao alterar qualquer input
+        ['val-inicial', 'val-aporte', 'val-taxa', 'val-tempo'].forEach(id => {
+            document.getElementById(id).addEventListener('input', calcular);
+        });
+
+        // Inicialização
+        window.addEventListener('DOMContentLoaded', async () => {
+            await carregarTaxaSelic();
+            calcular();
+        });
+    </script>
 </body>
+
 </html>
