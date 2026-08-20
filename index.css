@@ -156,19 +156,22 @@ nav a:hover {
 }
 
 .rodapé {
+    color: white;
     text-align: center;
     padding: 20px;
     background: #0b1220;
 }
 
+.rodapé a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
 .rodapé a:hover {
     color: cyan;
     text-shadow: 0 0 10px cyan;
-
 }
-
-
-
 
 #projetos {
     padding: 60px 20px;
@@ -409,10 +412,12 @@ nav a:hover {
         box-shadow: 0 0 15px #22c55e;
         transform: scale(1.02);
     }
+
     50% {
         border-color: cyan;
         box-shadow: 0 0 18px cyan;
     }
+
     100% {
         border-color: #1e293b;
         box-shadow: none;
